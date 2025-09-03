@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🍔 Uber Eats Agent AI
 
-# Run and deploy your AI Studio app
+An AI-powered automation agent that seamlessly interacts with the Uber Eats app to:
 
-This contains everything you need to run your app locally.
+🤖 Search & Compare meals across restaurants
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ksvyUOlYTXv_VF6EcmtGhzM1JWhl9tT6
+💸 Find the Best Price for your favorite dish
 
-## Run Locally
+🛒 Place Orders Automatically with saved preferences
 
-**Prerequisites:**  Node.js
+📦 Track Deliveries in Real-Time until they reach your doorstep
 
+✨ Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🔍 Smart Meal Selection – Finds your favorite meal and compares restaurant pricing
+
+🧠 AI-Powered Decisions – Optimizes order placement based on cost and availability
+
+⚡ End-to-End Automation – Search → Select → Order → Track, fully automated
+
+📲 In-App Integration – Works directly with the Uber Eats app
+
+🔔 Real-Time Tracking – Monitors delivery progress and sends updates
+
+🛠 Tech Stack
+
+AI/Automation: LangChain
+, OpenAI API
+ (or your choice)
+
+App Automation: Appium
+, Selenium
+
+Backend: Python (Flask/FastAPI)
+
+Database (optional): MongoDB / SQLite for storing preferences
+
+Notifications: Push/Email/Slack integration
+
+🚀 Getting Started
+Prerequisites
+
+Python 3.9+
+
+Uber Eats account with saved payment method
+
+API keys (if using OpenAI or similar)
+
+Installation
+# Clone repository
+git clone https://github.com/your-username/uber-eats-agent-ai.git
+
+# Navigate to project folder
+cd uber-eats-agent-ai
+
+# Install dependencies
+pip install -r requirements.txt
+
+Run the Agent
+python main.py
+
+📸 Demo
+
+(Add screenshots or GIFs of the agent in action here)
+
+🗺 Roadmap
+
+ Support for multiple food delivery apps (DoorDash, Grubhub, Zomato)
+
+ Add nutrition-aware ordering (healthier meal recommendations)
+
+ Voice Assistant integration (Alexa, Google Assistant)
+
+ Meal scheduling (auto-order at specific times)
