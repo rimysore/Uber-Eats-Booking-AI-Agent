@@ -1,5 +1,8 @@
 🍔 Uber Eats Agent AI
 
+<img width="1453" height="730" alt="image" src="https://github.com/user-attachments/assets/716664ef-9036-495c-968d-0f3782eab2f8" />
+
+
 An AI-powered automation agent that seamlessly interacts with the Uber Eats app to:
 
 🤖 Search & Compare meals across restaurants
